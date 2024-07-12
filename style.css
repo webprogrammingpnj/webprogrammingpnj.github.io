@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: montserrat, sans-serif;
+}
+
+h2,
+h3 {
+  color: #00a2c6;
+}
+
+footer {
+  background-color: #00a2c6;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.gambar-artikel {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gambar-dokum {
+  width: 200px;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.205);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+  padding: 60px;
+  font-size: 20px;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+#content {
+  flex-grow: 6;
+}
+
+aside {
+  flex-grow: 1;
+}
+
+/* UNTUK HP */
+@media screen and (min-width: 320px) and (max-width: 859px) {
+  main {
+    flex-direction: column;
+  }
+  nav {
+    text-align: center;
+  }
+  aside {
+    text-align: center;
+  }
+}
+/* UNTUK TABLET */
+@media screen and (min-width: 860px) and (max-width: 1020px) {
+  main {
+    flex-direction: column;
+  }
+  nav {
+    text-align: center;
+  }
+  aside {
+    text-align: center;
+  }
+}
